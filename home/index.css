@@ -160,7 +160,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/yroll.png);
+    background-image:url(../assets/yroll.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -172,7 +172,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/yroll_world.png);
+    background-image:url(../assets/yroll_world.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -184,7 +184,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/children_museum.jpg);
+    background-image:url(../assets/children_museum.jpg);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -196,7 +196,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/i_missed_u.png);
+    background-image:url(../assets/i_missed_u.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -208,7 +208,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/enclosed.png);
+    background-image:url(../assets/enclosed.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -220,7 +220,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/ypmd.png);
+    background-image:url(../assets/ypmd.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -231,7 +231,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url(/assets/taipei_101.png);
+    background-image:url(../assets/taipei_101.png);
     background-size:cover;
     background-repeat:no-repeat;
   }
