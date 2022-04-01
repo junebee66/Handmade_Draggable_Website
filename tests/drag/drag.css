@@ -1,0 +1,111 @@
+body{
+    font-family: sofia pro;
+    background-color:#eee;
+}
+
+h1{
+    color: #000000;
+    font-family: sofia pro;
+    font-size: 20px;
+}
+
+p{
+    /* padding:10px; */
+    font-size:13px;
+}
+
+
+#div1, #div2 {
+    float: center;
+    /* width: 100px; */
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  /* #mydiv, #mydiv2{
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+  } */
+
+  .dragBox{
+    position: absolute;
+    z-index: 9;
+    background-color: #fff;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    height: 300px;
+    width: 200px;
+    /* border-radius: 10px; */
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000000;
+  }
+
+  .red {
+    background: #E5BDBB;
+  }
+  
+  .ocean {
+    background: #98B6B8;
+  }
+
+  .blue{
+    background: #5B6884;
+  }
+
+  .honey{
+    background: #dcb107;
+  }
+
+  .grey{
+    background: #d2d2d2;
+  }
+  
+  #mydivheader {
+    padding: 0px;
+    height:60%;
+    cursor: move;
+    z-index: 10;
+    /* background-color: #fff; */
+    color: rgb(0, 0, 0);
+  }

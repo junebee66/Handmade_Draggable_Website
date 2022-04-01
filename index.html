@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../assets/apple.png" />
+
+    <title>June's Handmade Website</title>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <h1 id="home"><a href="index.html">HOME</a></h1>
+    <p id="description">Drag the project boxes on the bottom onto the display box on the top to remix a new project possibility</p>
+
+    <div id="all_content">
+    <div id="left">
+        
+        <div id="grid">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <!-- object #1-->
+                    <img src="/assets/apple.png" draggable="true" ondragstart="drag(event)" id="drag1" width= "100%" height= "100%">
+            </div>
+            
+            
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <!--Object #2-->
+                <div draggable="true" ondragstart="drag(event)" id="drag2" class = "dragBox">
+                    <div id="mydivheader" class="grey">
+                    </div>
+                    <h1>YPMD</h1>
+                    <p>Movesdsds</p>
+                    <p>this</p>
+                    <p>DIV</p>
+                </div>
+            </div>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+
+    <div id="div_scroll" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id = "scroll_cards"></div>
+        <!--HORIZONTAL-->
+        <ul class="hs no-scrollbar">
+            <div draggable="true" ondragstart="drag(event)" id="drag3" class="property-card">
+                <li>
+                    <div class="property-image moutain, yroll"></div>
+                    <div class="property-description">
+                        <h3> Yroll </h3>
+                        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                    </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag4" class="property-card">
+                <li>
+                <div class="property-image moutain, yroll_world"></div>
+                    <div class="property-description">
+                    <h3> Yroll World </h3>
+                    <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                    </div>
+                <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag5" class="property-card">
+                <li>
+                    <div class="property-image moutain, children_museum"></div>
+                        <div class="property-description">
+                            <h3> Children Museum </h3>
+                            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                        </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag6" class="property-card">
+                <li>
+                    <div class="property-image moutain, i_missed_u"></div>
+                        <div class="property-description">
+                        <h3> I Missed You </h3>
+                        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                        </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag7" class="property-card">
+                <li>
+                    <div class="property-image moutain, enclosed"></div>
+                        <div class="property-description">
+                        <h3> Enclosed </h3>
+                        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                        </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag8" class="property-card">
+                <li>
+                    <div class="property-image moutain, ypmd"></div>
+                        <div class="property-description">
+                        <h3> YPMD </h3>
+                        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                        </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+            <div draggable="true" ondragstart="drag(event)" id="drag9" class="property-card">
+                <li>
+                    <div class="property-image moutain, taipei_101"></div>
+                        <div class="property-description">
+                        <h3> Taipei 101 Sky Park </h3>
+                        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                        </div>
+                    <div class="property-social-icons"></div>
+                </li>
+            </div>
+
+        </ul>
+        </div>
+    </div>
+
+
+        <div id = "result">
+            <h1 id="result_title">Title</h1>
+            <img src="/assets/apple.png" id="result_image">
+
+            <div id="result_theme">Theme</div>
+
+            <div id="result_descriptions">
+
+                    <div id="result_focus">Focus Welcome to the website. 
+                        If you're here, you're likely looking to find random words. 
+                        Random Word Generator is the perfect tool to help you do this. 
+                        While this tool isn't a word creator, it is a word generator that 
+                        will generate random words for a variety of activities or uses. 
+                        Even better, it allows you to adjust the parameters of the random 
+                        words to best fit your needs.The first option the tool allows you to 
+                        adjust is the nuyou to adjust is the nuyou to adjust is the nuyou to 
+                        adjust is the nuyou to adjust is the nuyou to adjust is the nuyou to 
+                        words to best fit your needs.The first option the tool allows you to 
+                        adjust is the nuyou to adjust is the nuyou to adjust is the nuyou to 
+                        adjust is the nuyou to adjust is the nuyou to adjust is the nuyou to
+                    </div>
+
+                <div id="tool_present">
+                    <div id="result_tools">Tools</div>
+                    <div id="result_presentation">Presentations</div>
+                </div>
+            </div>
+
+            <div id="button">
+                <button id="go" onclick="window.location.href = '../project/project.html';">Go</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+  </body>
+</html>
